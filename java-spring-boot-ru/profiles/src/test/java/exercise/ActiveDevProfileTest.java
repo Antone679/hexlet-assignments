@@ -24,10 +24,6 @@ public class ActiveDevProfileTest {
 
     @Test
     void testProperties() {
-
-        System.out.println(dataSourceUsername);
-        System.out.println(dataSourcePassword);
-
         assertThat(dataSourceUrl).isEqualTo("jdbc:h2:mem:test");
         assertThat(dataSourceUsername).isEqualTo("sa");
         assertThat(dataSourcePassword).isEqualTo("123");
