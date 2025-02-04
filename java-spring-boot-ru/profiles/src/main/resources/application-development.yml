@@ -1,0 +1,11 @@
+# BEGIN
+spring:
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password: 123
+  jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      hibernate:
+        ddl-auto: update
+# END
